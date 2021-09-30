@@ -7,10 +7,10 @@
 
 import SwiftUI
 
+// 진입지점
 struct ContentView: View {
     var body: some View {
-        Text("Hello, Swiftui!")
-            .padding()
+        MainTabView()
     }
 }
 
