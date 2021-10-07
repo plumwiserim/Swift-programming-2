@@ -18,6 +18,7 @@
 		D834E0022705957A000ED04E /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D834E0012705957A000ED04E /* FeedView.swift */; };
 		D834E00427059609000ED04E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D834E00327059609000ED04E /* MainTabView.swift */; };
 		D834E00727059DC5000ED04E /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D834E00627059DC4000ED04E /* FeedCell.swift */; };
+		D85EAA41270ED9ED00932EF3 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85EAA40270ED9ED00932EF3 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		D834E0012705957A000ED04E /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		D834E00327059609000ED04E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		D834E00627059DC4000ED04E /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		D85EAA40270ED9ED00932EF3 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				D834DFFB27059504000ED04E /* SearchView.swift */,
+				D85EAA40270ED9ED00932EF3 /* SearchBar.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				D834DFE027058695000ED04E /* ContentView.swift in Sources */,
 				D834DFDE27058695000ED04E /* InstagramApp.swift in Sources */,
 				D834E00027059553000ED04E /* ProfileView.swift in Sources */,
+				D85EAA41270ED9ED00932EF3 /* SearchBar.swift in Sources */,
 				D834DFFA270594D5000ED04E /* NotificationsView.swift in Sources */,
 				D834E00727059DC5000ED04E /* FeedCell.swift in Sources */,
 			);

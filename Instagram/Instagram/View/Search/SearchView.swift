@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct SearchView: View {
+    
+    @State var searchText = ""
+    
     var body: some View {
-        Text("Search View")
+        
+        // 검색창, 검색버튼
+        ScrollView {
+            SearchBar(text: $searchText)
+        }
+        
+        // 검색결과 => 그리드뷰 형태로 나와야 된다. 
+        
+        //Text("Search View")
     }
 }
 
