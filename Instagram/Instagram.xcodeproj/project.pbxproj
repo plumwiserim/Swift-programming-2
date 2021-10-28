@@ -19,6 +19,10 @@
 		D834E00427059609000ED04E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D834E00327059609000ED04E /* MainTabView.swift */; };
 		D834E00727059DC5000ED04E /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D834E00627059DC4000ED04E /* FeedCell.swift */; };
 		D85EAA41270ED9ED00932EF3 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85EAA40270ED9ED00932EF3 /* SearchBar.swift */; };
+		D89378F2272A7CDA00B7F4BD /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89378F1272A7CDA00B7F4BD /* PostGridView.swift */; };
+		D89378F4272A7E9C00B7F4BD /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89378F3272A7E9C00B7F4BD /* UserCell.swift */; };
+		D89378F6272A7F7900B7F4BD /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89378F5272A7F7900B7F4BD /* UserListView.swift */; };
+		D89378F8272A846600B7F4BD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89378F7272A846600B7F4BD /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		D834E00327059609000ED04E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		D834E00627059DC4000ED04E /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		D85EAA40270ED9ED00932EF3 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		D89378F1272A7CDA00B7F4BD /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		D89378F3272A7E9C00B7F4BD /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		D89378F5272A7F7900B7F4BD /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		D89378F7272A846600B7F4BD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		D834DFED27058ED8000ED04E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D89378F0272A7C7000B7F4BD /* Items */,
 				D834DFF827059251000ED04E /* Main */,
 				D834DFF72705924B000ED04E /* Notifications */,
 				D834DFF627059240000ED04E /* Authentication */,
@@ -128,6 +137,7 @@
 		D834DFF027058EEE000ED04E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				D89378F7272A846600B7F4BD /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -195,6 +205,16 @@
 				D834E00327059609000ED04E /* MainTabView.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		D89378F0272A7C7000B7F4BD /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				D89378F1272A7CDA00B7F4BD /* PostGridView.swift */,
+				D89378F3272A7E9C00B7F4BD /* UserCell.swift */,
+				D89378F5272A7F7900B7F4BD /* UserListView.swift */,
+			);
+			path = Items;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,14 +288,18 @@
 			files = (
 				D834E0022705957A000ED04E /* FeedView.swift in Sources */,
 				D834DFFC27059504000ED04E /* SearchView.swift in Sources */,
+				D89378F2272A7CDA00B7F4BD /* PostGridView.swift in Sources */,
 				D834DFFE2705952A000ED04E /* UploadPostView.swift in Sources */,
 				D834E00427059609000ED04E /* MainTabView.swift in Sources */,
 				D834DFE027058695000ED04E /* ContentView.swift in Sources */,
 				D834DFDE27058695000ED04E /* InstagramApp.swift in Sources */,
 				D834E00027059553000ED04E /* ProfileView.swift in Sources */,
+				D89378F4272A7E9C00B7F4BD /* UserCell.swift in Sources */,
 				D85EAA41270ED9ED00932EF3 /* SearchBar.swift in Sources */,
 				D834DFFA270594D5000ED04E /* NotificationsView.swift in Sources */,
 				D834E00727059DC5000ED04E /* FeedCell.swift in Sources */,
+				D89378F6272A7F7900B7F4BD /* UserListView.swift in Sources */,
+				D89378F8272A846600B7F4BD /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

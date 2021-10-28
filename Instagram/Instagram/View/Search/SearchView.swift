@@ -10,22 +10,19 @@ import SwiftUI
 struct SearchView: View {
     
     @State var searchText = ""
+    @State var inSearchMode = false
     
     var body: some View {
-        
-        // 검색창, 검색버튼
         ScrollView {
-            SearchBar(text: $searchText)
+            SearchBar(text: $searchText, isEditing: $inSearchMode).padding()
+            
+            ZStack {
+                if inSearchMode {
+                    UserListView()
+                } else {
+                    PostGridView()
+                }
+            }
         }
-        
-        // 검색결과 => 그리드뷰 형태로 나와야 된다. 
-        
-        //Text("Search View")
-    }
-}
-
-struct SearchView_Previews: PreviewProvider {
-    static var previews: some View {
-        SearchView()
     }
 }
