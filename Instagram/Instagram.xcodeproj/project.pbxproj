@@ -6,23 +6,8 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		D8B6DCDA2733AE60004EC095 /* View in Resources */ = {isa = PBXBuildFile; fileRef = D8B6DCD52733AE60004EC095 /* View */; };
-		D8B6DCDB2733AE60004EC095 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B6DCD62733AE60004EC095 /* Assets.xcassets */; };
-		D8B6DCDC2733AE60004EC095 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = D8B6DCD72733AE60004EC095 /* Preview Content */; };
-		D8B6DCDD2733AE60004EC095 /* InstagramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B6DCD82733AE60004EC095 /* InstagramApp.swift */; };
-		D8B6DCDE2733AE60004EC095 /* Utils in Resources */ = {isa = PBXBuildFile; fileRef = D8B6DCD92733AE60004EC095 /* Utils */; };
-		D8B6DCE42733BD4C004EC095 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B6DCE32733BD4C004EC095 /* AuthViewModel.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		D834DFDA27058695000ED04E /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8B6DCD52733AE60004EC095 /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; name = View; path = "../../../../Downloads/iOS-Instagram-clone_v1_20211104 2/Instagram/View"; sourceTree = "<group>"; };
-		D8B6DCD62733AE60004EC095 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/iOS-Instagram-clone_v1_20211104 2/Instagram/Assets.xcassets"; sourceTree = "<group>"; };
-		D8B6DCD72733AE60004EC095 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Preview Content"; path = "../../../../Downloads/iOS-Instagram-clone_v1_20211104 2/Instagram/Preview Content"; sourceTree = "<group>"; };
-		D8B6DCD82733AE60004EC095 /* InstagramApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InstagramApp.swift; path = "../../../../Downloads/iOS-Instagram-clone_v1_20211104 2/Instagram/InstagramApp.swift"; sourceTree = "<group>"; };
-		D8B6DCD92733AE60004EC095 /* Utils */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Utils; path = "../../../../Downloads/iOS-Instagram-clone_v1_20211104 2/Instagram/Utils"; sourceTree = "<group>"; };
-		D8B6DCE32733BD4C004EC095 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,30 +40,8 @@
 		D834DFDC27058695000ED04E /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
-				D8B6DCDF2733BD07004EC095 /* ViewModel */,
-				D8B6DCD62733AE60004EC095 /* Assets.xcassets */,
-				D8B6DCD82733AE60004EC095 /* InstagramApp.swift */,
-				D8B6DCD72733AE60004EC095 /* Preview Content */,
-				D8B6DCD92733AE60004EC095 /* Utils */,
-				D8B6DCD52733AE60004EC095 /* View */,
 			);
 			path = Instagram;
-			sourceTree = "<group>";
-		};
-		D8B6DCDF2733BD07004EC095 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				D8B6DCE02733BD17004EC095 /* Authentication */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		D8B6DCE02733BD17004EC095 /* Authentication */ = {
-			isa = PBXGroup;
-			children = (
-				D8B6DCE32733BD4C004EC095 /* AuthViewModel.swift */,
-			);
-			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,10 +102,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8B6DCDC2733AE60004EC095 /* Preview Content in Resources */,
-				D8B6DCDB2733AE60004EC095 /* Assets.xcassets in Resources */,
-				D8B6DCDE2733AE60004EC095 /* Utils in Resources */,
-				D8B6DCDA2733AE60004EC095 /* View in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,8 +112,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8B6DCE42733BD4C004EC095 /* AuthViewModel.swift in Sources */,
-				D8B6DCDD2733AE60004EC095 /* InstagramApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

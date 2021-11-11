@@ -1,14 +1,15 @@
 //
-//  AuthViewModel.swift
+//  AuthViewModel.swift.swift
 //  Instagram
 //
-//  Created by SW_mac04 on 2021/11/04.
+//  Created by Sangkon Han on 2021/11/04.
 //
 
 import SwiftUI
 import Firebase
 
-class AuthViewModel {
+class AuthViewModel: ObservableObject {
+    
     @Published var userSession: FirebaseAuth.User?
     
     init() {
@@ -20,16 +21,23 @@ class AuthViewModel {
     }
     
     func register(withEmail email: String, password: String) {
-        print(email)
-        print(password)
-        print("Register")
+        Auth.auth().createUser(withEmail: email, password: password) { result, error in
+            if let error = error {
+                print(error.localizedDescription)
+                return
+            }
+            guard let user = result?.user else { return }
+            self.userSession = user
+            print("성공!")
+        }
     }
     
-    func signout() {
-        print("signout")
+    func singout() {
+        print("singout")
     }
     
     func fetchUser() {
-        print("")
+        print("fetchUser")
     }
+    
 }
