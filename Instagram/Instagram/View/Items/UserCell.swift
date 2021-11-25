@@ -6,26 +6,25 @@
 //
 
 import SwiftUI
+import Kingfisher
 
 struct UserCell: View {
+    
+    let user: User
+    
     var body: some View {
         HStack {
-            Image("user")
+            KFImage(URL(string: user.profileImageUrl))
                 .resizable()
                 .scaledToFill()
                 .frame(width: 48, height: 48)
                 .clipShape(Circle())
             VStack(alignment: .leading) {
-                Text("MJ").font(.system(size: 14, weight: .semibold))
-                Text("Michael Jordan").font(.system(size: 14))
+                Text(user.usename).font(.system(size: 14, weight: .semibold))
+                Text(user.fullname).font(.system(size: 14))
             }
             Spacer()
         }
     }
 }
 
-struct UserCell_Previews: PreviewProvider {
-    static var previews: some View {
-        UserCell()
-    }
-}

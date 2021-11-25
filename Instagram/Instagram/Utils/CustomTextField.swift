@@ -29,6 +29,8 @@ struct CustomTextField: View {
                     .foregroundColor(.white)
                 
                 TextField("", text: $text)
+                    .autocapitalization(.none)
+
             }
         }
     }

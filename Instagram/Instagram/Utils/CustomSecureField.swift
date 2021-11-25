@@ -27,6 +27,8 @@ struct CustomSecureField: View {
                     .foregroundColor(.white)
                 
                 SecureField("", text: $text)
+                    .autocapitalization(.none)
+
             }
         }
     }

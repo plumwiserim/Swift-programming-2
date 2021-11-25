@@ -78,7 +78,11 @@ struct RegistrationView: View {
                 }
                 
                 Button(action: {
-                    viewModel.register(withEmail: email, password: password, image: selectedImage, fullname: fullname, username: username)
+                    viewModel.register(withEmail: email,
+                                       password: password,
+                                       image: selectedImage,
+                                       fullname: fullname,
+                                       username: username)
                 }, label: {
                     Text("Sign Up")
                         .font(.headline)
